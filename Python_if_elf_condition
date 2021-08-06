@@ -1,0 +1,15 @@
+# Calculate employee salary based on gender and qualification for begainers.
+
+g=input("enter employee gender:")
+e=float(input("enter years of experience:"))
+q=int(input ("Enter qualification i.e. 10='10th'and 12='inter':"))
+
+if (g=="male" and e>=1 and q==10) or (g=="female" and e>=2 and e<=5 and q==10):
+    
+    salary=7000
+    
+elif (g=="male" and e>3 and e<=7 and q==10) or (g=="female" and e>4 and e<=7 and q==10):
+    
+    salary=12000
+
+print("salary of employe:"+ str(salary))   
